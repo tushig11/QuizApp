@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">QuizApp and RecycleView exercise</string>
+    <string name="quizBtn">Click here to check Quiz</string>
+    <string name="viewBtn">Click here to check RecycleView exercise</string>
+
+    <!--  card view -->
+    <string name="name">Test Product</string>
+    <string name="price">Price: 100.0</string>
+    <string name="color">Color: Black</string>
+    <string name="desc">Item description: </string>
 </resources>

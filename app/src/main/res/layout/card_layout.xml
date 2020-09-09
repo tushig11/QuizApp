@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:id="@+id/card_view"
+    app:cardBackgroundColor="#503987"
+    app:cardCornerRadius="20dp"
+    android:layout_marginBottom="4dp">
+
+    <RelativeLayout
+        android:id="@+id/itemDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/name"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="199dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/name"
+            android:textColor="#8FFF70"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/image"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/image"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="246dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-24dp"
+            android:layout_toRightOf="@+id/image"
+            android:text="@string/price"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/image" />
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="246dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/price"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/image"
+            android:text="@string/color"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/image" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
