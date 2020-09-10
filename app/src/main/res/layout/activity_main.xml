@@ -8,11 +8,13 @@
 
     <Button
         android:id="@+id/quizBtn"
+        android:onClick="viewQuiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/quizBtn"
-        android:padding="10dp"
-        android:layout_margin="10dp"/>
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        style="@style/buttonStyle" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleView"

@@ -1,7 +1,9 @@
 package com.example.quizapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -25,5 +27,10 @@ class MainActivity : AppCompatActivity() {
         createStaticProducts()
         recycleView.layoutManager = LinearLayoutManager(this)
         recycleView.adapter = CustomAdapter(this, productList)
+    }
+
+    fun viewQuiz(view: View){
+        val quizIntent = Intent(this, QuizActivity::class.java)
+        startActivity(quizIntent)
     }
 }

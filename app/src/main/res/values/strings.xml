@@ -8,4 +8,21 @@
     <string name="price">Price: 100.0</string>
     <string name="color">Color: Black</string>
     <string name="desc">Item description: </string>
+
+    <!-- quiz -->
+    <string name="q1">1. Select the safe call operator? ( 50 point )</string>
+    <string name="q1a1">array?.length</string>
+    <string name="q1a2">array.length?:0</string>
+    <string name="q1a3">array!!.length</string>
+
+    <string name="q2">2. How to declare constant variable x? ( 50 point )</string>
+    <string name="q2a1">var x = "Constant"</string>
+    <string name="q2a2">val x = "Constant"</string>
+    <string name="q2a3">x = "Constant"</string>
+    <string name="q2desc">Each wrong answer deducts your point by 10</string>
+
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+
+
 </resources>
